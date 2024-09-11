@@ -1,0 +1,19 @@
+.nav-link {
+    color: none;
+}
+
+/* Default navbar hidden */
+.navbar {
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    opacity: 0;
+    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    z-index: 10;
+}
+
+/* Navbar becomes visible after hero section */
+.navbar-visible {
+    top: 0;
+    opacity: 1;
+}

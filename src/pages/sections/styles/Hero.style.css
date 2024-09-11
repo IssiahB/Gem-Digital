@@ -1,0 +1,39 @@
+.hero-section {
+    position: relative;
+    height: 100vh; /* Ensures the hero section takes the full viewport height */
+    overflow: hidden; /* Ensures the video doesn't overflow outside the section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire hero section */
+    z-index: -1; /* Places the video behind the content */
+}
+
+.hero-section h1,
+.hero-section p,
+.hero-section button {
+    z-index: 2; /* Ensures the content is above the video */
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.hero-section button {
+    margin-top: 30px;
+}

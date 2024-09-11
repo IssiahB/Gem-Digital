@@ -1,15 +1,14 @@
 import { Container, Button, Row, Col } from "react-bootstrap";
+import video from "../../assets/videos/moving-background.mp4";
+import "./styles/Hero.style.css";
 
 function Hero() {
     return (
-        <section
-            className="hero-section text-white py-5"
-            style={{
-                backgroundImage: "url('/src/assets/hero-bg.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-            }}
-        >
+        <section className="hero-section text-white">
+            <video className="background-video" autoPlay loop muted>
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag mp4.
+            </video>
             <Container>
                 <Row>
                     <Col md={8}>

@@ -1,4 +1,4 @@
-import Landing from "./sections/Landing";
+import NavBar from "../components/NavBar";
 import Hero from "./sections/Hero";
 import Features from "./sections/Features";
 import Portfolio from "./sections/Portfolio";
@@ -11,7 +11,7 @@ import Contact from "./sections/Contact";
 function HomePage() {
     return (
         <>
-            <Landing />
+            <NavBar />
             <Hero />
             <Features />
             <Services />

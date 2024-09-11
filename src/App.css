@@ -33,20 +33,6 @@ body {
     text-align: right;
 }
 
-/* Hero Section */
-.hero-section {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    color: white;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero-section h1 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 /* Portfolio Section */
 .portfolio-section .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
