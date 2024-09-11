@@ -1,14 +1,26 @@
-import { useState } from "react";
-import NavBar from "../components/NavBar";
+import Landing from "./sections/Landing";
+import Hero from "./sections/Hero";
+import Features from "./sections/Features";
+import Portfolio from "./sections/Portfolio";
+import Services from "./sections/Services";
+import Testimonials from "./sections/Testmonials";
+import Blog from "./sections/Blog";
+import FAQ from "./sections/FAQ";
+import Contact from "./sections/Contact";
 
 function HomePage() {
-    const [count, setCount] = useState(0);
-
     return (
-        <div>
-            <NavBar />
-            <h1> This is the home page </h1>
-        </div>
+        <>
+            <Landing />
+            <Hero />
+            <Features />
+            <Services />
+            <Portfolio />
+            <Testimonials />
+            <Blog />
+            <FAQ />
+            <Contact />
+        </>
     );
 }
 

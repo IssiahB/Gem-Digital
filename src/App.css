@@ -1,42 +1,79 @@
-#root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+/* General styles */
+body {
+    font-family: "YourCustomFont", sans-serif; /* Replace with your actual font */
 }
 
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-}
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
+.features-section h2,
+.faq-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.services-section .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
-        animation: logo-spin infinite 20s linear;
-    }
+/* Header */
+.navbar {
+    background-color: #0d1f36; /* Dark navy or company branding color */
 }
 
-.card {
-    padding: 2em;
+.navbar h1 {
+    font-size: 1.8rem;
+    margin-left: 15px;
 }
 
-.read-the-docs {
-    color: #888;
+/* Footer */
+.contact-section p {
+    font-size: 1rem;
+}
+
+.text-end {
+    text-align: right;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Portfolio Section */
+.portfolio-section .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Testimonials Section */
+.testimonials-section .blockquote {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.testimonials-section .blockquote-footer {
+    color: #555;
+}
+
+/* Blog Section */
+.blog-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.blog-section .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
