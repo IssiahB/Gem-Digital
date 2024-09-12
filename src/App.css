@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: "YourCustomFont", sans-serif; /* Replace with your actual font */
+    font-family: sans-serif; /* Replace with your actual font */
 }
 
 .features-section h2,
@@ -12,6 +12,14 @@ body {
 .services-section .card {
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Speedy";
 }
 
 /* Header */

@@ -1,13 +1,25 @@
 import { Container, Button, Row, Col } from "react-bootstrap";
-import video from "../../assets/videos/moving-background.mp4";
+import { useState } from "react";
+
+import webmVideo from "../../assets/videos/moving-background.webm";
+import mp4Video from "../../assets/videos/moving-background.mp4";
 import "./styles/Hero.style.css";
 
 function Hero() {
+    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
     return (
         <section className="hero-section text-white">
-            <video className="background-video" autoPlay loop muted>
-                <source src={video} type="video/mp4" />
-                Your browser does not support the video tag mp4.
+            <video
+                className="background-video"
+                preload="auto"
+                autoPlay
+                loop
+                muted
+            >
+                <source src={webmVideo} type="video/webm" />
+                <source src={mp4Video} type="video/mp4" />
+                Your browser does not support the video tag.
             </video>
             <Container>
                 <Row>
