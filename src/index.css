@@ -1,8 +1,14 @@
 @font-face {
     font-family: "Speedy";
     src: local("Speedy"),
-        url("./assets/fonts/speedy/Speedy.ttf") format("truetype");
+        url("./assets/fonts/Speedy/Speedy.ttf") format("truetype");
     font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+        url("./assets/fonts/Inter/Inter_28pt-Regular.ttf") format("truetype");
 }
 
 /* :root {

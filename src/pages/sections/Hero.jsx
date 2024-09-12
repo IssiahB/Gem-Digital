@@ -1,13 +1,12 @@
 import { Container, Button, Row, Col } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Aos from "aos";
 
 import webmVideo from "../../assets/videos/moving-background.webm";
 import mp4Video from "../../assets/videos/moving-background.mp4";
 import "./styles/Hero.style.css";
 
 function Hero() {
-    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-
     return (
         <section className="hero-section text-white">
             <video
@@ -24,15 +23,24 @@ function Hero() {
             <Container>
                 <Row>
                     <Col md={8}>
-                        <h1>Transforming Ideas into Digital Solutions</h1>
-                        <p className="lead">
+                        <h1 data-aos="zoom-in">
+                            Transform Ideas into Digital Solutions
+                        </h1>
+                        <p data-aos="slide-right" className="lead">
                             At Gem Digital Solutions, we build powerful,
                             scalable software tailored to your business needs.
                             Let’s bring your ideas to life with our expertise.
                         </p>
-                        <Button variant="primary" size="lg" href="#contact">
-                            Get a Free Quote
-                        </Button>
+                        <div data-aos="slide-right">
+                            <Button
+                                id="quote-btn"
+                                variant="primary"
+                                size="lg"
+                                href="#contact"
+                            >
+                                Get a Free Quote
+                            </Button>
+                        </div>
                     </Col>
                 </Row>
             </Container>

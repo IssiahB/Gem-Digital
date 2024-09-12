@@ -2,7 +2,9 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./assets/fonts/speedy/Speedy.ttf";
+import "aos/dist/aos.css";
+import "./assets/fonts/Speedy/Speedy.ttf";
+import "./assets/fonts/Inter/Inter_28pt-Regular.ttf";
 
 import App from "./App.jsx";
 import "./index.css";

@@ -1,10 +1,17 @@
-import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { useEffect } from "react";
+import Aos from "aos";
+
 import HomePage from "./pages/HomePage";
 import "./App.css";
 
 function App() {
-    const [count, setCount] = useState(0);
+    useEffect(() => {
+        Aos.init({
+            once: true,
+            duration: 1000,
+        });
+    }, []);
 
     return (
         <BrowserRouter>

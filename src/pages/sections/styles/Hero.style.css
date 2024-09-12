@@ -18,22 +18,39 @@
     z-index: -1; /* Places the video behind the content */
 }
 
-.hero-section h1,
-.hero-section p,
-.hero-section button {
-    z-index: 2; /* Ensures the content is above the video */
+h1,
+p,
+#quote-btn {
+    z-index: 2;
 }
 
 .hero-section h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 4rem;
+    color: #fafb63;
 }
 
 .hero-section p {
-    font-size: 1.2rem;
-    margin-top: 20px;
+    font-size: 1.5rem;
+    margin: 100px 0;
 }
 
-.hero-section button {
-    margin-top: 30px;
+#quote-btn {
+    background-color: #fafb63;
+    font-weight: bold;
+    color: black;
+}
+
+#quote-btn:hover {
+    background-color: #c7c759;
+}
+
+@media screen and (max-width: 560px) {
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .hero-section p {
+        font-size: 1.5rem;
+        margin: 70px 0;
+    }
 }

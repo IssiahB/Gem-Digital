@@ -1,6 +1,6 @@
 /* General styles */
 body {
-    font-family: sans-serif; /* Replace with your actual font */
+    font-family: "Inter", sans-serif, "Courier New", Courier, monospace;
 }
 
 .features-section h2,
@@ -19,7 +19,8 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Speedy";
+    font-family: "Speedy", Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
 }
 
 /* Header */
