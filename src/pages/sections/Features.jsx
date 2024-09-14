@@ -10,7 +10,7 @@ const Features = () => {
                 <div className="image-container">
                     <img
                         src={colabImg}
-                        data-aos="slide-right"
+                        data-aos="fade-in"
                         alt="Team collaboration"
                         className="styled-image"
                     />

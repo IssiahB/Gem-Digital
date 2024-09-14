@@ -1,64 +1,105 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import "./styles/Blog.style.css";
+
+import tempImg from "../../assets/images/consulting.jpg";
 
 function Blog() {
     return (
         <section className="blog-section py-5">
             <Container>
-                <h2 className="text-center mb-4">Latest Insights & Articles</h2>
-                <Row>
-                    <Col md={4}>
-                        <Card>
-                            <Card.Img
-                                variant="top"
-                                src="/src/assets/blog1.jpg"
+                <h2 className="text-center blog-title mb-5">
+                    Latest Insights & Articles
+                </h2>
+                <Row
+                    className="align-items-center blog-post"
+                    data-aos="slide-left"
+                    data-aos-offset="300"
+                    data-aos-delay="100"
+                >
+                    <Col md={6}>
+                        <div className="blog-image-wrapper">
+                            <img
+                                src={tempImg}
+                                alt="Blog Post 1"
+                                className="blog-image"
                             />
-                            <Card.Body>
-                                <Card.Title>
-                                    Understanding Digital Transformation
-                                </Card.Title>
-                                <Card.Text>
-                                    Explore how businesses are leveraging
-                                    technology to stay competitive in today’s
-                                    market.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        </div>
                     </Col>
-                    <Col md={4}>
-                        <Card>
-                            <Card.Img
-                                variant="top"
-                                src="/src/assets/blog2.jpg"
-                            />
-                            <Card.Body>
-                                <Card.Title>
-                                    Top 5 Trends in Software Development
-                                </Card.Title>
-                                <Card.Text>
-                                    Stay ahead of the curve by understanding the
-                                    latest trends that will shape the future of
-                                    software.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                    <Col md={6}>
+                        <div className="blog-content">
+                            <h3 className="blog-post-title">
+                                Understanding Digital Transformation
+                            </h3>
+                            <p className="blog-post-text">
+                                Explore how businesses are leveraging technology
+                                to stay competitive in today’s market.
+                            </p>
+                            <a href="#" className="blog-read-more">
+                                Read More
+                            </a>
+                        </div>
                     </Col>
-                    <Col md={4}>
-                        <Card>
-                            <Card.Img
-                                variant="top"
-                                src="/src/assets/blog3.jpg"
+                </Row>
+                <Row
+                    className="align-items-center blog-post reverse"
+                    data-aos="slide-right"
+                    data-aos-offset="300"
+                    data-aos-delay="200"
+                >
+                    <Col md={6}>
+                        <div className="blog-image-wrapper">
+                            <img
+                                src={tempImg}
+                                alt="Blog Post 2"
+                                className="blog-image"
                             />
-                            <Card.Body>
-                                <Card.Title>
-                                    Case Study: Project X Success
-                                </Card.Title>
-                                <Card.Text>
-                                    Read how our team solved complex challenges
-                                    for a major client, driving impactful
-                                    business results.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        </div>
+                    </Col>
+                    <Col md={6}>
+                        <div className="blog-content">
+                            <h3 className="blog-post-title">
+                                Top 5 Trends in Software Development
+                            </h3>
+                            <p className="blog-post-text">
+                                Stay ahead of the curve by understanding the
+                                latest trends that will shape the future of
+                                software.
+                            </p>
+                            <a href="#" className="blog-read-more">
+                                Read More
+                            </a>
+                        </div>
+                    </Col>
+                </Row>
+                <Row
+                    className="align-items-center blog-post"
+                    data-aos="slide-left"
+                    data-aos-offset="300"
+                    data-aos-delay="300"
+                >
+                    <Col md={6}>
+                        <div className="blog-image-wrapper">
+                            <img
+                                src={tempImg}
+                                alt="Blog Post 3"
+                                className="blog-image"
+                            />
+                        </div>
+                    </Col>
+                    <Col md={6}>
+                        <div className="blog-content">
+                            <h3 className="blog-post-title">
+                                Case Study: Project X Success
+                            </h3>
+                            <p className="blog-post-text">
+                                Read how our team solved complex challenges for
+                                a major client, driving impactful business
+                                results.
+                            </p>
+                            <a href="#" className="blog-read-more">
+                                Read More
+                            </a>
+                        </div>
                     </Col>
                 </Row>
             </Container>

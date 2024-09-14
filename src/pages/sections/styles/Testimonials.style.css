@@ -1,0 +1,44 @@
+.testimonials-section {
+    background-color: #111; /* Dark background to match other sections */
+    color: #fff;
+    padding: 60px 0;
+}
+
+.testimonials-title {
+    color: #ff9d00; /* Same bold orange as your other sections */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-item blockquote {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 5px solid #ff9d00; /* Highlighting left border */
+    transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffea00; /* Yellow text for the quote */
+    line-height: 1.6;
+}
+
+.blockquote-footer {
+    color: #ccc;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .testimonial-quote {
+        font-size: 1.2rem;
+    }
+
+    .blockquote-footer {
+        font-size: 1rem;
+    }
+}

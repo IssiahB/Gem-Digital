@@ -1,0 +1,81 @@
+/* FAQ Section Styles */
+.faq-section {
+    background-color: #111; /* Dark background to match other sections */
+    color: #fff;
+    padding: 60px 0;
+}
+
+.faq-title {
+    color: #ff9d00; /* Orange title color */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.faq-title::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #ff9d00; /* Orange underline */
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+
+/* Accordion Styles */
+.accordion-item {
+    background-color: #1e1e1e; /* Dark gray background for FAQ items */
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: #1e1e1e;
+}
+
+.accordion-header .faq-header {
+    background-color: transparent;
+    color: #ffea00; /* Yellow header text */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-button {
+    color: #ffea00; /* Yellow text for header */
+    background-color: transparent; /* Transparent background */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ff9d00; /* Orange background when active */
+    color: #fff;
+}
+
+.accordion-body {
+    background-color: #000; /* Black background for the body */
+    color: #ccc; /* Light gray text */
+    padding: 20px;
+    border-top: 2px solid #ff9d00;
+}
+
+/* Hover effects for accordion header */
+.accordion-button:hover {
+    background-color: #ff9d00; /* Orange hover */
+    color: #fff;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .faq-title {
+        font-size: 2rem;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+}

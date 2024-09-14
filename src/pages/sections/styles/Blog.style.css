@@ -1,0 +1,114 @@
+.blog-section {
+    background-color: #ff9e29; /* Orange background */
+    color: #fff;
+    padding: 60px 0;
+}
+
+.blog-title {
+    color: #000; /* Black text for the title */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.blog-title::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background-color: #000; /* Black underline */
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+
+/* Blog Post Styles */
+.blog-post {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-post.reverse {
+    flex-direction: row-reverse;
+}
+
+.blog-image-wrapper {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.blog-post:hover .blog-image {
+    transform: scale(1.1); /* Image zoom on hover */
+}
+
+.blog-content {
+    padding: 20px;
+    background-color: #111;
+    color: #000;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff9e29;
+}
+
+.blog-post-text {
+    font-size: 1rem;
+    color: #d4d4d4;
+}
+
+.blog-read-more {
+    color: #ffea00;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.blog-read-more:hover {
+    color: #ff7400; /* Slightly darker orange on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .blog-title {
+        font-size: 2rem;
+    }
+
+    .blog-post {
+        margin-bottom: 40px;
+        flex-direction: column;
+    }
+
+    .blog-post.reverse {
+        flex-direction: column;
+    }
+
+    .blog-post-title {
+        font-size: 1.3rem;
+    }
+
+    .blog-post-text {
+        font-size: 0.9rem;
+    }
+
+    .blog-read-more {
+        font-size: 0.9rem;
+    }
+}

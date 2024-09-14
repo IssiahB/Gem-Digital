@@ -3,10 +3,10 @@ import Hero from "./sections/Hero";
 import Features from "./sections/Features";
 import Portfolio from "./sections/Portfolio";
 import Services from "./sections/Services";
-import Testimonials from "./sections/Testmonials";
+import Testimonials from "./sections/Testimonials";
 import Blog from "./sections/Blog";
 import FAQ from "./sections/FAQ";
-import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 function HomePage() {
     return (
@@ -19,7 +19,7 @@ function HomePage() {
             <Testimonials />
             <Blog />
             <FAQ />
-            <Contact />
+            <Footer />
         </>
     );
 }

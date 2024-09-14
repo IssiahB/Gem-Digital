@@ -54,29 +54,29 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#features">About</Nav.Link>
-                        <Nav.Link href="#pricing">Contact</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#about">About</Nav.Link>
                         <NavDropdown
                             title="Services"
                             id="collapsible-nav-dropdown"
                             data-bs-theme="dark"
                         >
-                            <NavDropdown.Item href="#action/3.1">
+                            <NavDropdown.Item href="#service/app">
                                 Mobile Apps
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="#service/site">
                                 Websites
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">
+                            <NavDropdown.Item href="#service/consultation">
                                 Consulting
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="#service/custom">
                                 Custom Software
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#deets">Blog</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
+                        <Nav.Link href="#blog">Blog</Nav.Link>
+                        <Nav.Link eventKey={2} href="#contact">
                             Contact Us
                         </Nav.Link>
                     </Nav>

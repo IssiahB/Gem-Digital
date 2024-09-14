@@ -7,10 +7,17 @@
 }
 
 .services-title {
-    font-size: 3rem;
-    color: #ff8a00; /* Title color */
-    margin-bottom: 50px;
+    color: #ff9d00; /* Same bold orange color */
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.divider {
+    width: 80px;
+    height: 4px;
+    background-color: #ff9d00; /* Orange divider */
+    margin: 0 auto;
 }
 
 /* Service item styles */
@@ -19,12 +26,14 @@
     border-radius: 15px;
     padding: 20px;
     margin-bottom: 30px;
+    margin: 0 10px 30px;
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .service-item:hover {
-    transform: translateY(-10px); /* Hover effect */
+    transform: translateY(-15px); /* Hover effect */
+    box-shadow: 0 15px 0px rgba(255, 157, 0, 0.3);
 }
 
 /* Image styling */
