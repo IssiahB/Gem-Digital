@@ -1,19 +1,51 @@
-.nav-link {
-    color: none;
-}
-
-/* Default navbar hidden */
+/* Default transparent navbar */
 .navbar {
     position: fixed;
-    top: -100px;
-    width: 100%;
-    opacity: 0;
-    transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    top: 0;
+    width: 100vw;
+    background: none !important;
+    color: white;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out,
+        top 0.3s ease-in-out;
     z-index: 10;
 }
 
-/* Navbar becomes visible after hero section */
-.navbar-visible {
-    top: 0;
-    opacity: 1;
+/* Navbar with solid background after scrolling */
+.navbar-solid {
+    background: #343a40 !important; /* Dark background */
+}
+
+.navbar-solid .nav-link {
+    color: #ccc;
+}
+
+.nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hide the navbar when scrolling down */
+.navbar-hidden {
+    top: -100px; /* Move the navbar out of view */
+    transition: top 0.3s ease-in-out;
+}
+
+.navbar h1 {
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
+
+.navbar-title {
+    display: inline;
+    color: var(--red);
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        background: #343a40 !important;
+    }
+
+    .nav-link {
+        color: #ccc;
+    }
 }

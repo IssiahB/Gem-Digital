@@ -1,6 +1,8 @@
-import { Container, Button, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Aos from "aos";
+
+import SimpleButton from "../../components/SimpleButton";
 
 import webmVideo from "../../assets/videos/moving-background.webm";
 import mp4Video from "../../assets/videos/moving-background.mp4";
@@ -32,14 +34,7 @@ function Hero() {
                             Let’s bring your ideas to life with our expertise.
                         </p>
                         <div data-aos="slide-right">
-                            <Button
-                                id="quote-btn"
-                                variant="primary"
-                                size="lg"
-                                href="#contact"
-                            >
-                                Get a Free Quote
-                            </Button>
+                            <SimpleButton>Get a Free Quote</SimpleButton>
                         </div>
                     </Col>
                 </Row>

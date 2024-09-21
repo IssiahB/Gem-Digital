@@ -1,5 +1,9 @@
 .blog-section {
-    background-color: #ff9e29; /* Orange background */
+    background: linear-gradient(
+        135deg,
+        #ff9e29,
+        #ff6200
+    ); /* Orange background */
     color: #fff;
     padding: 60px 0;
 }

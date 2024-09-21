@@ -1,0 +1,11 @@
+.simple-btn {
+    background-color: var(--yellow);
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.simple-btn:hover {
+    background-color: #b2cd1c;
+    color: black;
+}

@@ -34,14 +34,14 @@ p,
     margin: 100px 0;
 }
 
-#quote-btn {
+.simple-btn {
     background-color: #ffff00;
     font-weight: bold;
     color: black;
     border: none;
 }
 
-#quote-btn:hover {
+.simple-btn:hover {
     background-color: #b2cd1c;
 }
 

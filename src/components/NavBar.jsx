@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,6 +8,9 @@ import logo from "../assets/logo.svg";
 import "./styles/NavBar.style.css";
 
 function NavBar() {
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+    const [scrollDirection, setScrollDirection] = useState("up");
+
     useEffect(() => {
         const heroSection = document.querySelector(".hero-section");
         const navbar = document.querySelector(".navbar");
@@ -15,9 +18,9 @@ function NavBar() {
         const observer = new IntersectionObserver(
             ([entry]) => {
                 if (!entry.isIntersecting) {
-                    navbar.classList.add("navbar-visible");
+                    navbar.classList.add("navbar-solid");
                 } else {
-                    navbar.classList.remove("navbar-visible");
+                    navbar.classList.remove("navbar-solid");
                 }
             },
             { threshold: 0.1 }
@@ -25,10 +28,35 @@ function NavBar() {
 
         if (heroSection) observer.observe(heroSection);
 
+        // Scroll event listener to detect scroll direction
+        const handleScroll = () => {
+            const currentScrollTop = window.pageYOffset;
+
+            if (currentScrollTop > lastScrollTop) {
+                // Scrolling down
+                setScrollDirection("down");
+                navbar.classList.add("navbar-hidden");
+            } else {
+                // Scrolling up
+                setScrollDirection("up");
+                navbar.classList.remove("navbar-hidden");
+            }
+
+            // If at the top of the page, show the navbar
+            if (currentScrollTop === 0) {
+                navbar.classList.remove("navbar-hidden");
+            }
+
+            setLastScrollTop(currentScrollTop <= 0 ? 0 : currentScrollTop); // For mobile or negative scrolling
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
         return () => {
+            window.removeEventListener("scroll", handleScroll);
             if (heroSection) observer.unobserve(heroSection);
         };
-    }, []);
+    }, [lastScrollTop]);
 
     return (
         <Navbar
@@ -48,30 +76,32 @@ function NavBar() {
                             height="30"
                             className="d-inline-block align-top"
                         />{" "}
-                        Gem Digital Solutions
+                        <div className="navbar-title">
+                            Gem Digital Solutions
+                        </div>
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="#shop">Shop</Nav.Link>
                         <NavDropdown
                             title="Services"
                             id="collapsible-nav-dropdown"
                             data-bs-theme="dark"
                         >
-                            <NavDropdown.Item href="#service/app">
-                                Mobile Apps
+                            <NavDropdown.Item href="service/repair">
+                                Device Repair
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#service/site">
-                                Websites
+                            <NavDropdown.Item href="service/consult">
+                                IT Consulting
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#service/consultation">
-                                Consulting
+                            <NavDropdown.Item href="shop">
+                                Hardware
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#service/custom">
+                            <NavDropdown.Item href="service/custom">
                                 Custom Software
                             </NavDropdown.Item>
                         </NavDropdown>

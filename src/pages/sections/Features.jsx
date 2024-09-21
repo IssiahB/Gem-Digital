@@ -1,7 +1,9 @@
 import React from "react";
 
-import "./styles/Features.style.css";
+import SimpleButton from "../../components/SimpleButton";
+
 import colabImg from "../../assets/images/team-collaboration.jpg";
+import "./styles/Features.style.css";
 
 const Features = () => {
     return (
@@ -14,18 +16,20 @@ const Features = () => {
                         alt="Team collaboration"
                         className="styled-image"
                     />
+                    <div className="image-overlay"></div>
                 </div>
                 <div className="text-container" data-aos="fade-up">
                     <h1 className="section-title">What Sets Us Apart</h1>
                     <p className="section-description">
-                        At Gem Digital Solutions, we focus on crafting unique
-                        software solutions tailored to your business needs. Our
-                        approach combines cutting-edge technology, personalized
-                        service, and unparalleled expertise to bring you the
-                        best in software development.
+                        Gem Digital Solutions, proudly founded in Idaho, the
+                        'Gem' state, offers tech services to our fellow
+                        Idahoans. Whether for business or personal, we provide
+                        exceptional service and outstanding customer care.
                     </p>
+                    <SimpleButton id="feature-btn">Learn More</SimpleButton>
                 </div>
             </div>
+            <div className="shape-divider"></div>
         </section>
     );
 };

@@ -1,18 +1,26 @@
-/* General styles */
+:root {
+    --orange: #ff9d00; /*255, 157, 0*/
+    --yellow: #ffea00;
+    --secondaryOrange: #ee8003;
+    --red: #e94848;
+    --darkGray: #1a1a1a;
+    --lightGray: #ccc;
+    --white: #efefef;
+    --black: #222;
+    --trueBlack: #000;
+    --darkBackground: #111;
+}
+
 body {
+    background-color: var(--darkBackground);
     font-family: "Inter", sans-serif, "Courier New", Courier, monospace;
 }
 
-.features-section h2,
+/* .features-section h2,
 .faq-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-}
-
-.services-section .card {
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 h1,
 h2,
@@ -21,16 +29,6 @@ h4,
 h5 {
     font-family: "Speedy", Impact, Haettenschweiler, "Arial Narrow Bold",
         sans-serif;
-}
-
-/* Header */
-.navbar {
-    background-color: #0d1f36; /* Dark navy or company branding color */
-}
-
-.navbar h1 {
-    font-size: 1.8rem;
-    margin-left: 15px;
 }
 
 /* Footer */
