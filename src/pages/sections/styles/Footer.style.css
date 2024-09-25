@@ -24,7 +24,7 @@
     text-decoration: underline;
 }
 
-.footer-btn {
+/* .footer-btn {
     background-color: #ff9d00;
     border: none;
     color: #1e1e1e;
@@ -34,7 +34,7 @@
 .footer-btn:hover {
     background-color: #ffea00;
     color: #1e1e1e;
-}
+} */
 
 .footer-logo {
     display: flex;

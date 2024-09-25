@@ -1,4 +1,6 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+
+import SimpleButton from "../../components/SimpleButton";
 import "./styles/Footer.style.css";
 
 import logo from "../../assets/logo.svg";
@@ -33,9 +35,9 @@ function Footer() {
                         <p className="footer-text">
                             Get a Free Quote. Call or send us an email today!
                         </p>
-                        <Button variant="warning" className="footer-btn">
-                            Request a Quote
-                        </Button>
+                        <SimpleButton custClass="footer-btn" href="/contact">
+                            Free Quote!
+                        </SimpleButton>
                     </Col>
                     <Col md={3} className="footer-links text-end">
                         <h4 className="footer-title">Links</h4>
@@ -57,7 +59,7 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <a href="/about-us" className="footer-link">
+                                <a href="/about" className="footer-link">
                                     About Us
                                 </a>
                             </li>

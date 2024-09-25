@@ -21,12 +21,14 @@ const Features = () => {
                 <div className="text-container" data-aos="fade-up">
                     <h1 className="section-title">What Sets Us Apart</h1>
                     <p className="section-description">
-                        Gem Digital Solutions, proudly founded in Idaho, the
-                        'Gem' state, offers tech services to our fellow
+                        Gem Digital Solutions is proudly founded in Idaho, the
+                        'Gem' state. We offer tech services to our fellow
                         Idahoans. Whether for business or personal, we provide
-                        exceptional service and outstanding customer care.
+                        exceptional service and understand customer care.
                     </p>
-                    <SimpleButton id="feature-btn">Learn More</SimpleButton>
+                    <SimpleButton href="/about" id="feature-btn">
+                        Learn More
+                    </SimpleButton>
                 </div>
             </div>
             <div className="shape-divider"></div>

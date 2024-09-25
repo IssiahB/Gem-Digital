@@ -73,6 +73,12 @@
     }
 }
 
+@media screen and (max-width: 870px) {
+    .main {
+        margin: 100px auto 20px auto;
+    }
+}
+
 .service:focus .service_title,
 .service:hover .service_title {
     animation: 0.5s ease-in 0s fly-in 1 both;

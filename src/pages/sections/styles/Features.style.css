@@ -88,6 +88,10 @@
         padding: 40px 20px;
     }
 
+    .shape-divider {
+        display: none;
+    }
+
     .image-container {
         display: none;
     }

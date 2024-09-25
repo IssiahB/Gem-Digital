@@ -1,11 +1,15 @@
 .simple-btn {
-    background-color: var(--yellow);
+    background-color: var(--brightYellow);
     font-weight: bold;
     color: black;
     border: none;
 }
 
 .simple-btn:hover {
-    background-color: #b2cd1c;
+    background-color: #d4ea59;
     color: black;
+}
+
+.simple-btn:active {
+    --bs-btn-active-bg: none;
 }

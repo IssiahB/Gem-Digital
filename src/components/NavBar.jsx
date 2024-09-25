@@ -84,7 +84,7 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#about">About</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
                         <Nav.Link href="#shop">Shop</Nav.Link>
                         <NavDropdown
                             title="Services"

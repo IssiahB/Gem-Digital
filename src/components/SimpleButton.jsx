@@ -1,8 +1,16 @@
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-function SimpleButton({ ref, children }) {
+import "./styles/SimpleButton.style.css";
+
+function SimpleButton({ custClass, href, children }) {
     return (
-        <Button className="simple-btn" variant="primary" size="lg" href={ref}>
+        <Button
+            className={"simple-btn " + custClass}
+            variant="none"
+            size="lg"
+            href={href}
+        >
             {children}
         </Button>
     );

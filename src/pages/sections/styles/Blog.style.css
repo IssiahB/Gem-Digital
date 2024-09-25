@@ -6,6 +6,7 @@
     ); /* Orange background */
     color: #fff;
     padding: 60px 0;
+    overflow: hidden;
 }
 
 .blog-title {
@@ -66,7 +67,6 @@
 }
 
 .blog-post-title {
-    font-size: 1.5rem;
     font-weight: bold;
     color: #ff9e29;
 }

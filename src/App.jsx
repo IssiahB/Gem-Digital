@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 
 import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route exact path="/" element={<HomePage />} />
+                <Route path="/about" element={<AboutPage />} />
             </Routes>
         </BrowserRouter>
     );

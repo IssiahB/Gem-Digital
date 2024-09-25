@@ -25,16 +25,17 @@ function Hero() {
             <Container>
                 <Row>
                     <Col md={8}>
-                        <h1 data-aos="zoom-in">
-                            Transform Ideas into Digital Solutions
+                        <h1 data-aos="zoom-in" className="hero-title">
+                            Tech Solutions For Your Business
                         </h1>
                         <p data-aos="slide-right" className="lead">
-                            At Gem Digital Solutions, we build powerful,
-                            scalable software tailored to your business needs.
-                            Let’s bring your ideas to life with our expertise.
+                            From IT Consulting to Custom Software Development,
+                            we are commited to serving our community.
                         </p>
                         <div data-aos="slide-right">
-                            <SimpleButton>Get a Free Quote</SimpleButton>
+                            <SimpleButton custClass="hero-btn" href="/contact">
+                                Get a Free Quote
+                            </SimpleButton>
                         </div>
                     </Col>
                 </Row>

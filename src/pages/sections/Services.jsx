@@ -113,8 +113,8 @@ const Services = () => {
                                 <p>
                                     Have an existing codebase we can work on
                                     that too. Let us provide our comprehensive
-                                    testing package, or even migrate you to the
-                                    cloud.
+                                    testing package, or even migrate your code
+                                    to the cloud.
                                 </p>
                                 <p>
                                     We can build you:{" "}

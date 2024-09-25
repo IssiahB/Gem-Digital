@@ -12,11 +12,11 @@
 
 /* Navbar with solid background after scrolling */
 .navbar-solid {
-    background: #343a40 !important; /* Dark background */
+    background: rgb(34, 34, 34, 0.75) !important; /* Dark background */
 }
 
 .navbar-solid .nav-link {
-    color: #ccc;
+    color: var(--lightGray);
 }
 
 .nav-link {
@@ -37,15 +37,19 @@
 
 .navbar-title {
     display: inline;
-    color: var(--red);
+    color: var(--white);
 }
 
 @media (max-width: 991px) {
     .navbar {
-        background: #343a40 !important;
+        background: rgb(34, 34, 34, 0.75) !important;
     }
 
     .nav-link {
-        color: #ccc;
+        color: var(--lightGray);
+    }
+
+    .navbar-title {
+        color: var(--red);
     }
 }
