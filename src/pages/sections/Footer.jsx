@@ -1,4 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { SocialIcon } from "react-social-icons";
+import "react-social-icons/facebook";
+import "react-social-icons/linkedin";
 
 import SimpleButton from "../../components/SimpleButton";
 import "./styles/Footer.style.css";
@@ -29,6 +32,18 @@ function Footer() {
                             >
                                 contact@gemdigitalsolutions.org
                             </a>
+                            <div className="social-links">
+                                <SocialIcon
+                                    className="social-link"
+                                    target="_blank"
+                                    url="https://www.facebook.com/people/Gem-Digital-Solutions/61565135964317/"
+                                />
+                                <SocialIcon
+                                    className="social-link"
+                                    target="_blank"
+                                    url="https://www.linkedin.com/company/gem-digital-solutions/"
+                                />
+                            </div>
                         </p>
                     </Col>
                     <Col md={3} className="text-end">

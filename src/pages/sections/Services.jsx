@@ -83,7 +83,7 @@ const Services = () => {
                                     </em>
                                 </p>
                                 <p className="upcharge">
-                                    Have ease of mind with our 1-year warranty
+                                    Have ease of mind with our 90-day warranty
                                     for repaired parts.
                                 </p>
                             </div>

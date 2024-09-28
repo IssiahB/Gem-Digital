@@ -24,17 +24,11 @@
     text-decoration: underline;
 }
 
-/* .footer-btn {
-    background-color: #ff9d00;
-    border: none;
-    color: #1e1e1e;
-    font-weight: bold;
+.social-links {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
 }
-
-.footer-btn:hover {
-    background-color: #ffea00;
-    color: #1e1e1e;
-} */
 
 .footer-logo {
     display: flex;
@@ -120,6 +114,14 @@
         display: block;
         font-size: 14px;
         margin: 0 auto;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .social-links .social-link {
+        margin-right: 10px;
     }
 
     .footer-copyright {
