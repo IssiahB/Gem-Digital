@@ -50,6 +50,6 @@
     }
 
     .navbar-title {
-        color: var(--red);
+        color: var(--lightGray);
     }
 }

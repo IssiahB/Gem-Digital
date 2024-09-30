@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Form, Row, Col } from "react-bootstrap";
 
 import SimpleButton from "./SimpleButton";
+import webmVideo from "../assets/videos/world-background.webm";
+import mp4Video from "../assets/videos/world-background.mp4";
+
 import "./styles/ContactForm.style.css"; // Importing the CSS file
 
 const ContactForm = () => {
@@ -47,6 +50,17 @@ const ContactForm = () => {
 
     return (
         <main className="contact-form">
+            <video
+                className="background-video"
+                preload="auto"
+                autoPlay
+                loop
+                muted
+            >
+                <source src={webmVideo} type="video/webm" />
+                <source src={mp4Video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
             <div className="submit-message hidden" hidden>
                 <h2 className="form-submit-title"> Thank You </h2>
                 <p className="form-desc">
