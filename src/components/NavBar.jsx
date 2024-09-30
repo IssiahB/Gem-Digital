@@ -85,30 +85,28 @@ function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="/about">About</Nav.Link>
-                        <Nav.Link href="#shop">Shop</Nav.Link>
+                        <Nav.Link href="/shop">Shop</Nav.Link>
                         <NavDropdown
                             title="Services"
                             id="collapsible-nav-dropdown"
                             data-bs-theme="dark"
                         >
-                            <NavDropdown.Item href="service/repair">
+                            <NavDropdown.Item href="/service/repair">
                                 Device Repair
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="service/consult">
+                            <NavDropdown.Item href="/service/consult">
                                 IT Consulting
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="shop">
+                            <NavDropdown.Item href="/shop">
                                 Hardware
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="service/custom">
+                            <NavDropdown.Item href="/service/custom">
                                 Custom Software
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#blog">Blog</Nav.Link>
-                        <Nav.Link eventKey={2} href="#contact">
-                            Contact Us
-                        </Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
+                        <Nav.Link href="/contact">Contact Us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
