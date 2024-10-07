@@ -13,6 +13,13 @@ import Footer from "./sections/Footer";
 
 import "./styles/ProductsPage.style.css";
 
+/*
+    TODO
+    Interesting idea what if when a user clicks the "learn more" button on any of
+    the service sections, that section expands displaying more information about
+    the service, like the guarantees, terms, prices, and more.
+*/
+
 function ProductsPage() {
     useEffect(() => {
         AOS.refresh(); // Refresh AOS animations when the component is mounted
@@ -25,7 +32,7 @@ function ProductsPage() {
                 {/* Hero Section */}
                 <section class="service-hero-section">
                     <div class="service-hero-text" data-aos="fade-right">
-                        <h1>Providing Tailored Tech Services for Idahoians</h1>
+                        <h1>Providing Tailored Tech Services for Idaho</h1>
                         <p>
                             At Gem Digital, we specialize in custom software, IT
                             services, and device repairs tailored specifically
@@ -72,7 +79,7 @@ function ProductsPage() {
                                 <Button
                                     className="product-btn"
                                     variant="outline-light"
-                                    href="/custom-software"
+                                    href="/contact"
                                 >
                                     Learn More
                                 </Button>
@@ -103,7 +110,7 @@ function ProductsPage() {
                                 <Button
                                     className="product-btn"
                                     variant="outline-light"
-                                    href="/it-services"
+                                    href="/contact"
                                 >
                                     Learn More
                                 </Button>
@@ -149,7 +156,7 @@ function ProductsPage() {
                                 <Button
                                     className="product-btn"
                                     variant="outline-light"
-                                    href="/device-repairs"
+                                    href="/contact"
                                 >
                                     Learn More
                                 </Button>

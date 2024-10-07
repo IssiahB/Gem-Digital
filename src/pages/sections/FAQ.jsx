@@ -20,8 +20,8 @@ function FAQ() {
                             South would be just past Mountain Home.
                             <br /> <br />
                             In-person work would include services like hardware
-                            installations. Don't worry almost all of the other
-                            services we offer are online or mail friendly.
+                            installations. Don't worry almost all other services
+                            we offer can be facilitated online or through mail.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">

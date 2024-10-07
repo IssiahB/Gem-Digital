@@ -11,7 +11,9 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ProductsPage from "./pages/ProductsPage";
+import StorePage from "./pages/StorePage";
 import PrivacyPage from "./pages/PrivacyPage";
+import NotFoundPage from "./pages/NotFoundPage";
 import "./App.css";
 
 // Firebase Config
@@ -48,7 +50,9 @@ function App() {
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/service" element={<ProductsPage />} />
+                <Route path="/shop" element={<StorePage />} />
                 <Route path="/privacy-policy" element={<PrivacyPage />} />
+                <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </BrowserRouter>
     );

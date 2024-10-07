@@ -22,10 +22,10 @@ const mapContainerStyle = {
 };
 
 const radiusOptions = {
-    strokeColor: "#FF0000",
+    strokeColor: "#ff9d00",
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: "#FF0000",
+    fillColor: "#ff9d00",
     fillOpacity: 0.35,
     radius: 80467.2, // 50 miles in meters (1 mile = 1609.34 meters)
 };
@@ -73,7 +73,7 @@ function ContactPage() {
                             <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
                                 <GoogleMap
                                     mapContainerStyle={mapContainerStyle}
-                                    zoom={9}
+                                    zoom={13}
                                     center={center}
                                 >
                                     <Circle

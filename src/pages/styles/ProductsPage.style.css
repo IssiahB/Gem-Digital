@@ -17,17 +17,16 @@
     color: var(--white);
 }
 
-.custom-software-section {
-    background-color: var(--orange);
+.service-section h2 {
+    color: var(--yellow);
 }
 
-.it-services-section {
-    background-color: var(--secondaryOrange);
-    color: var(--darkGray);
+.custom-software-section {
+    background-image: linear-gradient(var(--orange), var(--secondaryOrange));
 }
 
 .device-repairs-section {
-    background-color: var(--darkBackground);
+    background-image: linear-gradient(var(--secondaryOrange), var(--orange));
 }
 
 .service-image {
@@ -43,7 +42,7 @@
 .service-details {
     list-style: none;
     padding-left: 0;
-    color: var(--lightGray);
+    color: var(--brightYellow);
 }
 
 .service-details li {
@@ -121,6 +120,10 @@ button:focus {
 
     .service-hero-section {
         padding: 100px 40px !important;
+    }
+
+    .it-services-section .row {
+        flex-direction: column-reverse;
     }
 }
 

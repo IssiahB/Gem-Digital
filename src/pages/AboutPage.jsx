@@ -25,7 +25,8 @@ function AboutPage() {
                             About Our Company
                         </h1>
                         <p data-aos="zoom-in" className="about-desc">
-                            At Gem Digital Solutions, we are proud Idahoans.
+                            At Gem Digital Solutions, we are proud to serve
+                            Idaho.
                         </p>
                     </div>
                     <div className="about-landing-img-container">
