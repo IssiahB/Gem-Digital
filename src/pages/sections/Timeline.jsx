@@ -101,9 +101,9 @@ function Timeline() {
                     >
                         <h3 class="time-title">Guarentees</h3>
                         <p>
-                            Though we may be a new company we are determined and
-                            have much to prove. We are no stanger to hard work
-                            and offer a few guarentees that set us apart.
+                            Though we may be a new company we are determined to
+                            prove ourselves. We are no stanger to hard work and
+                            offer multiple guarentees that set us apart.
                             <br /> <br />
                             <em>General:</em> <br />
                             <em>-</em> <strong>Prices</strong>: We guarantee

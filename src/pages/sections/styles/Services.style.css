@@ -67,6 +67,10 @@
     animation: 0s 0s fly-in 0 reverse both;
 }
 
+.hero-link {
+    text-decoration: none;
+}
+
 @media (min-width: 720px) {
     .service_title {
         animation: 0.5s 0.25s fly-out 1 both;
@@ -92,9 +96,7 @@
 }
 
 .service_text p:first-of-type:first-letter {
-    font-size: 1.8em;
-    font-family: Georgia, Times, serif;
-    margin-right: 0.05em;
+    /* Do something to begining text */
 }
 
 @media (min-width: 480px) {

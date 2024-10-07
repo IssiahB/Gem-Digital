@@ -48,12 +48,13 @@ function FAQ() {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header className="faq-header">
-                            You do appliance repairs?
+                            Do you repair appliance?
                         </Accordion.Header>
                         <Accordion.Body>
-                            Yes, we offer simple appliance repairs. That means
-                            we can troubleshoot and repair key components of
-                            your appliance.
+                            No, we do not offer appliance repairs. However we
+                            can repair a variety of devices including: Mobile
+                            Phones, Personal Computers, Tablets, Game Consoles
+                            and more.
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
@@ -61,12 +62,12 @@ function FAQ() {
                             Do you sell devices?
                         </Accordion.Header>
                         <Accordion.Body>
-                            Yes, we are partnered with industry leaders like HP
-                            and Lenovo to offer you affordable hardware for your
-                            business.
+                            Yes, we are working to partner with industry leaders
+                            like HP and Lenovo to offer you affordable hardware
+                            on top of exceptional service.
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="0">
+                    <Accordion.Item eventKey="5">
                         <Accordion.Header className="faq-header">
                             Where are you located?
                         </Accordion.Header>

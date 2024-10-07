@@ -84,6 +84,7 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/about">About</Nav.Link>
                         <Nav.Link href="/shop">Shop</Nav.Link>
                         <NavDropdown
@@ -91,17 +92,17 @@ function NavBar() {
                             id="collapsible-nav-dropdown"
                             data-bs-theme="dark"
                         >
-                            <NavDropdown.Item href="/service/repair">
+                            <NavDropdown.Item href="/service">
                                 Device Repair
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="/service/consult">
+                            <NavDropdown.Item href="/service">
                                 IT Consulting
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/shop">
                                 Hardware
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="/service/custom">
+                            <NavDropdown.Item href="/service">
                                 Custom Software
                             </NavDropdown.Item>
                         </NavDropdown>

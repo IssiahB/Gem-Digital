@@ -1,0 +1,209 @@
+/* General Page Styles */
+.products-page {
+    background-color: var(--darkGray);
+    color: var(--white);
+}
+
+.idaho-image {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Service Sections */
+.service-section {
+    padding: 80px 0;
+    background-color: var(--darkGray);
+    color: var(--white);
+}
+
+.custom-software-section {
+    background-color: var(--orange);
+}
+
+.it-services-section {
+    background-color: var(--secondaryOrange);
+    color: var(--darkGray);
+}
+
+.device-repairs-section {
+    background-color: var(--darkBackground);
+}
+
+.service-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.service-details {
+    list-style: none;
+    padding-left: 0;
+    color: var(--lightGray);
+}
+
+.service-details li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* RESPONSIVE STYLES */
+
+/* Medium screens (tablets) */
+@media (max-width: 992px) {
+    .service-description {
+        font-size: 1rem;
+    }
+
+    .service-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service-section {
+        padding: 60px 20px;
+    }
+
+    product-btn {
+        font-size: 1rem;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 768px) {
+    .service-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .service-description {
+        font-size: 0.9rem;
+    }
+
+    .service-details li {
+        font-size: 0.9rem;
+    }
+
+    /* Stack the columns vertically */
+    .service-section .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-section .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .service-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .product-btn {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .service-hero-image {
+        display: none;
+    }
+
+    .service-hero-section {
+        padding: 100px 40px !important;
+    }
+}
+
+/* Extra small screens (small mobile devices) */
+@media (max-width: 576px) {
+    .service-description {
+        font-size: 0.85rem;
+    }
+
+    .service-details li {
+        font-size: 0.85rem;
+    }
+
+    .service-section h2 {
+        font-size: 1.6rem;
+    }
+
+    product-btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
+
+.service-hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: var(--darkGray); /* Dark background */
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-hero-text {
+    flex: 1;
+    padding-right: 20px;
+    border: 2px solid var(--orange); /* Orange border for accent */
+    padding: 30px;
+    background-color: var(
+        --darkBackground
+    ); /* Dark background for text section */
+    color: var(--white); /* White text for readability */
+}
+
+.service-hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--orange); /* Orange title */
+}
+
+.service-hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: var(--lightGray); /* Light gray for description */
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--orange); /* Orange product-btn */
+    color: var(--white); /* White text for the product-btn */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--secondaryOrange); /* Darker orange on hover */
+}
+
+.service-hero-image {
+    flex: 1;
+    position: relative;
+}
+
+.service-hero-image img {
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px -10px var(--secondaryOrange); /* Shadow effect */
+}
