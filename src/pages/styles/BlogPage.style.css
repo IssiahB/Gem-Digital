@@ -1,0 +1,127 @@
+.blog-landing {
+    background-color: var(--darkGray);
+    color: var(--white);
+}
+
+.blog-page-title {
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+
+.blog-cta {
+    font-size: 1.2rem;
+    color: var(--lightGray);
+}
+
+.blog-landing-form {
+    max-width: 500px;
+}
+
+.recent-blogs,
+.all-blogs {
+    background-color: var(--darkBackground);
+    color: var(--white);
+}
+
+.blog-section-title {
+    color: var(--orange);
+    font-size: 2rem;
+    font-family: "Speedy", sans-serif;
+}
+
+.blog-meta {
+    color: var(--lightGray);
+}
+
+.blog-meta h3,
+.blog-meta h5 {
+    color: var(--yellow);
+}
+
+.blog-meta span {
+    font-size: 0.9rem;
+}
+
+.tags {
+    color: var(--pink);
+}
+
+.blog-post-card {
+    background-color: var(--black);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post-card:hover {
+    transform: translateY(-5px);
+}
+
+.pagination-carousel button {
+    color: var(--white);
+    border-color: var(--orange);
+}
+
+.pagination-carousel span {
+    color: var(--orange);
+}
+
+/* Center images and set max-width */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Custom Subscribe Button */
+.custom-subscribe-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Speedy", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-subscribe-btn:hover {
+    background-color: var(--secondaryOrange);
+}
+
+/* Blog posts are clickable */
+.clickable {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.clickable:hover {
+    transform: translateY(-5px);
+}
+
+/* Blog post cards */
+.blog-post-card {
+    background-color: var(--black);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Custom pagination button */
+.custom-page-nav-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Speedy", sans-serif;
+    cursor: pointer;
+}
+
+.custom-page-nav-btn:hover {
+    background-color: var(--secondaryOrange);
+}

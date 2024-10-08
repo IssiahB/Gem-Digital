@@ -11,6 +11,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import ProductsPage from "./pages/ProductsPage";
+import BlogPage from "./pages/BlogPage";
 import StorePage from "./pages/StorePage";
 import PrivacyPage from "./pages/PrivacyPage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -51,6 +52,7 @@ function App() {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/service" element={<ProductsPage />} />
                 <Route path="/shop" element={<StorePage />} />
+                <Route path="/blog" element={<BlogPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
