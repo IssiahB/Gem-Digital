@@ -73,7 +73,7 @@ function ContactPage() {
                             <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
                                 <GoogleMap
                                     mapContainerStyle={mapContainerStyle}
-                                    zoom={7}
+                                    zoom={8}
                                     center={center}
                                 >
                                     <Circle

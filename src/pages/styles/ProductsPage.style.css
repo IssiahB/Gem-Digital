@@ -2,6 +2,7 @@
 .products-page {
     background-color: var(--darkGray);
     color: var(--white);
+    overflow: hidden;
 }
 
 .idaho-image {

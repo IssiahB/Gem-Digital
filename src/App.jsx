@@ -14,6 +14,7 @@ import ProductsPage from "./pages/ProductsPage";
 import BlogPage from "./pages/BlogPage";
 import StorePage from "./pages/StorePage";
 import PrivacyPage from "./pages/PrivacyPage";
+import TermsPage from "./pages/TermsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import "./App.css";
 
@@ -54,6 +55,7 @@ function App() {
                 <Route path="/shop" element={<StorePage />} />
                 <Route path="/blog" element={<BlogPage />} />
                 <Route path="/privacy-policy" element={<PrivacyPage />} />
+                <Route path="/terms-conditions" element={<TermsPage />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </BrowserRouter>
