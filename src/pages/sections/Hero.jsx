@@ -14,9 +14,10 @@ function Hero() {
             <video
                 className="background-video"
                 preload="auto"
+                muted
                 autoPlay
                 loop
-                muted
+                playsInline
             >
                 <source src={webmVideo} type="video/webm" />
                 <source src={mp4Video} type="video/mp4" />
@@ -26,17 +27,15 @@ function Hero() {
                 <Row>
                     <Col md={8}>
                         <h1 data-aos="zoom-in" className="hero-title">
-                            Tech Solutions For Your Business
+                            Wired Right. Built to Last.
                         </h1>
                         <p data-aos="slide-right" className="lead">
-                            From IT Consulting to Custom Software Development,
-                            we are commited to serving our community.
+                            Structured cabling solutions for homes, businesses, and builders. 
+                            From clean cable runs to fully labeled panels — we do it right the first time.
                         </p>
-                        <div data-aos="slide-right">
-                            <SimpleButton custClass="hero-btn" href="/contact">
-                                Get a Free Quote
-                            </SimpleButton>
-                        </div>
+                        <SimpleButton custClass="hero-btn" href="/contact">
+                            Get a Free Quote
+                        </SimpleButton>
                     </Col>
                 </Row>
             </Container>

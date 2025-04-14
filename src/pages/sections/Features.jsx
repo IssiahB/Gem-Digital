@@ -2,7 +2,7 @@ import React from "react";
 
 import SimpleButton from "../../components/SimpleButton";
 
-import colabImg from "../../assets/images/team-collaboration.jpg";
+import patchImg from "../../assets/images/patch-panel-closeup.jpg";
 import "./styles/Features.style.css";
 
 const Features = () => {
@@ -11,20 +11,18 @@ const Features = () => {
             <div className="content-wrapper">
                 <div className="image-container">
                     <img
-                        src={colabImg}
+                        src={patchImg}
                         data-aos="fade-in"
-                        alt="Team collaboration"
+                        alt="Closeup of cables in patch panel"
                         className="styled-image"
                     />
-                    <div className="image-overlay"></div>
                 </div>
                 <div className="text-container" data-aos="fade-up">
                     <h1 className="section-title">What Sets Us Apart</h1>
                     <p className="section-description">
-                        Gem Digital Solutions is proudly founded in Idaho, the
-                        'Gem' state. We offer tech services to our fellow
-                        Idahoans. Whether for business or personal, we provide
-                        exceptional service and understand customer care.
+                        At Gem Digital Solutions, we deliver clean, organized, and reliable cable installations for homes and businesses across Idaho.
+                        What makes us different? Precision craftsmanship, attention to detail, and a strong commitment to customer satisfaction.
+                        We don’t just run cables — we build infrastructure you can count on.
                     </p>
                     <SimpleButton href="/about" id="feature-btn">
                         Learn More

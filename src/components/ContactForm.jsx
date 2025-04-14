@@ -146,25 +146,25 @@ const ContactForm = () => {
                         <div className="radio-group">
                             <Form.Check
                                 type="radio"
-                                label="Custom Software"
+                                label="Residential Cabling"
                                 name="serviceType"
-                                value="custom_software"
+                                value="resident_cable"
                                 onChange={handleChange}
                                 required
                             />
                             <Form.Check
                                 type="radio"
-                                label="IT Service"
+                                label="Network Setup"
                                 name="serviceType"
-                                value="it_service"
+                                value="network_setup"
                                 onChange={handleChange}
                                 required
                             />
                             <Form.Check
                                 type="radio"
-                                label="Device Repair"
+                                label="Business Cabling"
                                 name="serviceType"
-                                value="device_repair"
+                                value="business_cable"
                                 onChange={handleChange}
                                 required
                             />

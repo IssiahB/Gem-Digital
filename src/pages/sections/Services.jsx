@@ -19,30 +19,28 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    IT Consulting &#x2022; $75 hr
+                                    Residential Cabling Services &#x2022; $75 hr
                                 </h2>
                                 <div className="service_text">
                                     <p>
-                                        Find expert advice for your local
-                                        network. Whether installing new hardware
-                                        or simply monitoring network traffic,
-                                        our IT Technicians will help you through
-                                        every step.
+                                        Say goodbye to dead zones and lag! We run high-quality
+                                        Cat5e and Cat6 Ethernet cables to any room in your
+                                        home—perfect for streaming, working from home, and gaming.
+                                        Whether you’re in a new build that needs terminations and
+                                        faceplates or an older home that needs upgrades, we’ve got you covered.
                                     </p>
                                     <p>
-                                        Our Techs are trained in every area of
-                                        IT including:{" "}
+                                        Services include:{" "}
                                         <strong>
-                                            Network Security, OS Installations
-                                            Data Backups, Computer Hardware,
-                                            Computer Software, Active
-                                            Monitoring, and More.
+                                            <br />
+                                            • Room-to-room cable runs <br />
+                                            • Media panel cleanups & cable dressing <br />
+                                            • Faceplate hookups & terminations <br />
+                                            • Device hardwiring (TVs, consoles, PCs) <br />
                                         </strong>
                                     </p>
                                     <p className="upcharge">
-                                        With our Active Monitoring service you
-                                        can rest easy knowing that your network
-                                        is secure 24/7.{" "}
+                                        Start strong with a reliable connection in every room.{" "}
                                     </p>
                                 </div>
                             </div>
@@ -61,25 +59,25 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Device Repair &#x2022; $50
+                                    Gaming & Streaming Network Setups &#x2022; $50
                                 </h2>
                                 <div className="service_text">
                                     <p>
-                                        Let us repair your phone, tablet, or PC.
-                                        We can even work on TVs, and Game
-                                        Consoles. No need to spend extraordinary
-                                        amounts of $$$, with our quick repairs
-                                        you can spend as little as 50$.
+                                        <strong>Low Latency • High Performance • Clean Installs</strong>
+                                        <br />
+                                        If you’re a <em>gamer</em>, <em>content creator</em>, or <em>livestreamer</em>
+                                        , you know that a fast and stable connection can make or break your setup.
+                                        We’ll hardwire your streaming PC, gaming console, or workstation
+                                        straight to your router or switch using clean, efficient cable routes.
                                     </p>
                                     <p>
-                                        Don't let a broken electronic ruin your
-                                        plans and drain your bank account. We
-                                        can fix your devices including repairs
-                                        like:{" "}
+                                        What we provide:{" "}
                                         <strong>
-                                            cracked screen, button replacement,
-                                            faulty battery, audio issues, camera
-                                            repair, and much more.
+                                            <br />
+                                            • Direct Cat6 connections to gaming/streaming rigs <br />
+                                            • Latency-optimized wiring paths <br />
+                                            • Tidy installs with labeled lines <br />
+                                            • Panel or wall terminations for easy future changes <br />
                                         </strong>{" "}
                                         <em>
                                             Feel free to call if you have
@@ -87,8 +85,7 @@ const Services = () => {
                                         </em>
                                     </p>
                                     <p className="upcharge">
-                                        Have ease of mind with our 90-day
-                                        warranty for repaired parts.
+                                        Performance starts with your connection—make it count.
                                     </p>
                                 </div>
                             </div>
@@ -106,30 +103,31 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Custom Software Development
+                                    Business & Commercial Cabling
                                 </h2>
                                 <div className="service_text">
                                     <span className="note">Price Varies</span>
                                     <p>
-                                        With years of experience building
-                                        complex software our team can make your
-                                        dreams come true. Give use your
-                                        requriements and deadlines and we will
-                                        make it happen.
+                                        <em>Professional Network Cabling for Your Office or Workspace</em>
+                                        <br />
+                                        Keep your network closet or media panel organized and efficient.
+                                        We offer structured wiring services for small businesses, offices,
+                                        retail shops, and more. Whether you’re moving in, expanding, or
+                                        just need cleanup—we’ll help you create a neat, labeled, and
+                                        reliable infrastructure.
                                     </p>
                                     <p>
-                                        Have an existing codebase we can work on
-                                        that too. Let us provide our
-                                        comprehensive testing package, or even
-                                        migrate your code to the cloud.
-                                    </p>
-                                    <p>
-                                        We can build you:{" "}
+                                        We can help with:{" "}
                                         <strong>
-                                            Mobile apps, static websites, web
-                                            APIs, Web Applications, and even
-                                            Desktop Applications.
+                                            <br />
+                                            • Media panel and network closet organization <br />
+                                            • Running Ethernet to offices, POS stations, or server rooms <br />
+                                            • Labeling & testing existing lines <br />
+                                            • Clean and compliant installs with faceplates
                                         </strong>{" "}
+                                    </p>
+                                    <p className="upcharge">
+                                        Trust your cables to someone who treats them like part of the team.
                                     </p>
                                 </div>
                             </div>

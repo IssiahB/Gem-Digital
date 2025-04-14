@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { GoogleMap, LoadScript, Circle } from "@react-google-maps/api";
+// import { GoogleMap, LoadScript, Circle } from "@react-google-maps/api";
 import { SocialIcon } from "react-social-icons";
 import NavBar from "../components/NavBar";
 import Footer from "./sections/Footer";
@@ -70,7 +70,7 @@ function ContactPage() {
                         </div>
 
                         <div className="map-container mt-4">
-                            <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
+                            {/* <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
                                 <GoogleMap
                                     mapContainerStyle={mapContainerStyle}
                                     zoom={8}
@@ -81,7 +81,7 @@ function ContactPage() {
                                         options={radiusOptions}
                                     />
                                 </GoogleMap>
-                            </LoadScript>
+                            </LoadScript> */}
                         </div>
                     </Col>
                 </Row>
