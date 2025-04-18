@@ -19,28 +19,28 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Residential Cabling Services &#x2022; $75 hr
+                                    Residential Cabling Services
                                 </h2>
                                 <div className="service_text">
                                     <p>
-                                        Say goodbye to dead zones and lag! We run high-quality
-                                        Cat5e and Cat6 Ethernet cables to any room in your
-                                        home—perfect for streaming, working from home, and gaming.
-                                        Whether you’re in a new build that needs terminations and
-                                        faceplates or an older home that needs upgrades, we’ve got you covered.
+                                        Reliable Home Networking Solutions Upgrade your home with clean,
+                                        efficient Ethernet cabling designed for today’s digital demands.
+                                        Whether you're streaming 4K video, gaming competitively, or
+                                        working remotely—we’ll eliminate lag and dead zones with professional
+                                        Cat5e/Cat6 cable runs and terminations.
                                     </p>
                                     <p>
                                         Services include:{" "}
                                         <strong>
                                             <br />
-                                            • Room-to-room cable runs <br />
-                                            • Media panel cleanups & cable dressing <br />
-                                            • Faceplate hookups & terminations <br />
-                                            • Device hardwiring (TVs, consoles, PCs) <br />
+                                            • ✅ Room-to-room cable runs <br />
+                                            • ✅ Media panel cleanups & cable dressing <br />
+                                            • ✅ Faceplate hookups & terminations <br />
+                                            • ✅ Wired connections for TVs, PCs, and consoles <br />
                                         </strong>
                                     </p>
                                     <p className="upcharge">
-                                        Start strong with a reliable connection in every room.{" "}
+                                        🔧 Built for speed. Installed with care.{" "}
                                     </p>
                                 </div>
                             </div>
@@ -59,33 +59,32 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Gaming & Streaming Network Setups &#x2022; $50
+                                    Gaming & Streaming Network Setups
                                 </h2>
                                 <div className="service_text">
                                     <p>
                                         <strong>Low Latency • High Performance • Clean Installs</strong>
                                         <br />
-                                        If you’re a <em>gamer</em>, <em>content creator</em>, or <em>livestreamer</em>
-                                        , you know that a fast and stable connection can make or break your setup.
-                                        We’ll hardwire your streaming PC, gaming console, or workstation
-                                        straight to your router or switch using clean, efficient cable routes.
+                                        Pro-Level Network for <em>Gamers</em> & <em>Creators</em> Tired of lag ruining
+                                        your stream or game? Get a rock-solid connection hardwired
+                                        directly to your rig. We specialize in low-latency installs
+                                        that support high-bandwidth needs and keep your setup looking clean.
                                     </p>
                                     <p>
                                         What we provide:{" "}
                                         <strong>
                                             <br />
-                                            • Direct Cat6 connections to gaming/streaming rigs <br />
-                                            • Latency-optimized wiring paths <br />
-                                            • Tidy installs with labeled lines <br />
-                                            • Panel or wall terminations for easy future changes <br />
+                                            • ✅ Direct Cat6 connections <br />
+                                            • ✅ Labeled, clutter-free cable routing <br />
+                                            • ✅ Wall terminations for future flexibility <br />
+                                            • ✅ Ideal for Twitch streamers, YouTubers, and esports setups <br />
                                         </strong>{" "}
                                         <em>
-                                            Feel free to call if you have
-                                            questions!
+                                            Call now to get your free estimate!
                                         </em>
                                     </p>
                                     <p className="upcharge">
-                                        Performance starts with your connection—make it count.
+                                        🎮 Fast. Clean. Battle-tested.
                                     </p>
                                 </div>
                             </div>
@@ -108,26 +107,26 @@ const Services = () => {
                                 <div className="service_text">
                                     <span className="note">Price Varies</span>
                                     <p>
-                                        <em>Professional Network Cabling for Your Office or Workspace</em>
+                                        <em>Professional Cabling for Growing Businesses</em>
                                         <br />
-                                        Keep your network closet or media panel organized and efficient.
-                                        We offer structured wiring services for small businesses, offices,
-                                        retail shops, and more. Whether you’re moving in, expanding, or
-                                        just need cleanup—we’ll help you create a neat, labeled, and
-                                        reliable infrastructure.
+                                        Clean, structured cabling
+                                        isn’t just about aesthetics—it’s about uptime, safety, and scalability.
+                                        Whether you’re setting up a new office, renovating, or streamlining an
+                                        existing network, we deliver top-tier cable management and install
+                                        services tailored to your workspace.
                                     </p>
                                     <p>
                                         We can help with:{" "}
                                         <strong>
                                             <br />
-                                            • Media panel and network closet organization <br />
-                                            • Running Ethernet to offices, POS stations, or server rooms <br />
-                                            • Labeling & testing existing lines <br />
-                                            • Clean and compliant installs with faceplates
+                                            • ✅ Media panel & network closet optimization <br />
+                                            • ✅ Ethernet runs to offices, POS stations, and server racks <br />
+                                            • ✅ Line labeling, testing, and documentation <br />
+                                            • ✅ Standards-compliant terminations & faceplates
                                         </strong>{" "}
                                     </p>
                                     <p className="upcharge">
-                                        Trust your cables to someone who treats them like part of the team.
+                                        🏢 Build a network that works as hard as your team.
                                     </p>
                                 </div>
                             </div>
