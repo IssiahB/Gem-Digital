@@ -71,7 +71,7 @@ const ContactForm = () => {
             <div className="form-container visible">
                 <h2 className="form-title">Contact Us</h2>
 
-                <Form onSubmit={handleSubmit} className="contact-form" netlify>
+                <Form onSubmit={handleSubmit} className="contact-form" netlify="true">
                     {/* First and Last Name */}
                     <Row>
                         <Col md={6}>
