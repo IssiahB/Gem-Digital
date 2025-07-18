@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
+import "aos/dist/aos.css";
 
-import customSoftwareImage from "../assets/images/code.jpg";
+import cablingImage from "../assets/images/cabling.jpg";
 import itServicesImage from "../assets/images/it-services.jpg";
-import deviceRepairsImage from "../assets/images/device-repairs.jpg";
+import networkingImage from "../assets/images/networking.jpg";
+import customSoftwareImage from "../assets/images/code.jpg";
 import idahoImage from "../assets/images/idaho-capital.jpg";
 
 import NavBar from "../components/NavBar";
@@ -13,68 +15,67 @@ import Footer from "./sections/Footer";
 
 import "./styles/ProductsPage.style.css";
 
-/*
-    TODO
-    Interesting idea what if when a user clicks the "learn more" button on any of
-    the service sections, that section expands displaying more information about
-    the service, like the guarantees, terms, prices, and more.
-*/
+// Ensure images have descriptive alt properties to improve SEO
 
 function ProductsPage() {
     useEffect(() => {
-        AOS.refresh(); // Refresh AOS animations when the component is mounted
+        AOS.refresh();
     }, []);
 
     return (
         <>
+            <Helmet>
+                <title>Structured Cabling, Networking & IT Services in Idaho | Gem Digital Solutions</title>
+                <meta name="description" content="Gem Digital Solutions offers structured cabling, IT consulting, network setup, and software development in Caldwell, Nampa, and surrounding areas." />
+                <meta name="keywords" content="Idaho IT services, cabling Caldwell, Nampa network install, structured cabling, IT consultant Idaho, custom software Caldwell" />
+            </Helmet>
             <NavBar />
             <div className="products-page">
                 {/* Hero Section */}
-                <section class="service-hero-section">
-                    <div class="service-hero-text" data-aos="fade-right">
-                        <h1>Providing Tailored Tech Services for Idaho</h1>
+                <section className="service-hero-section">
+                    <div className="service-hero-text" data-aos="fade-right">
+                        <h1>Structured Cabling, Networking & IT Solutions in Idaho</h1>
                         <p>
-                            At Gem Digital, we specialize in custom software, IT
-                            services, and device repairs tailored specifically
-                            for small businesses across Idaho. Let us help your
-                            business thrive with top-notch solutions that drive
-                            productivity and innovation.
+                            Gem Digital proudly supports Idaho’s growing digital
+                            needs—from homes to small businesses—with a full
+                            range of cabling, IT, networking, and software
+                            solutions. We're here to simplify and strengthen
+                            your technology foundation.
                         </p>
-                        <a href="/contact" class="cta-button">
+                        <a href="/contact" className="cta-button">
                             Get in Touch
                         </a>
                     </div>
-                    <div class="service-hero-image" data-aos="zoom-in">
+                    <div className="service-hero-image" data-aos="zoom-in">
                         <img src={idahoImage} alt="Proud Idaho" />
                     </div>
                 </section>
 
-                {/* Custom Software Development Section */}
-                <section className="service-section custom-software-section">
+                {/* Cabling Solutions */}
+                <section className="service-section device-repairs-section">
                     <Container>
                         <Row className="align-items-center">
                             <Col md={6} data-aos="fade-right">
                                 <Image
-                                    src={customSoftwareImage}
+                                    src={cablingImage}
                                     className="service-image"
                                     fluid
-                                    alt="Custom Software"
+                                    alt="Cabling Solutions"
                                 />
                             </Col>
                             <Col md={6} data-aos="fade-left">
-                                <h2>Custom Software Development</h2>
+                                <h2>Cabling Solutions</h2>
                                 <p className="service-description">
-                                    We build powerful, scalable software
-                                    solutions tailored to your business needs.
-                                    From startups to enterprises, we create
-                                    custom software that helps you innovate,
-                                    automate, and grow.
+                                    Clean, professional wiring for your home or
+                                    office. Our certified cabling experts deliver
+                                    structured cabling, P2P setups, and more to
+                                    keep your systems running at peak performance.
                                 </p>
                                 <ul className="service-details">
-                                    <li>Custom application development</li>
-                                    <li>Integration with existing systems</li>
-                                    <li>Cloud-based solutions</li>
-                                    <li>Support & Maintenance</li>
+                                    <li>Structured Cat6/Cat7 installations</li>
+                                    <li>Point-to-Point (P2P) solutions</li>
+                                    <li>Server rack and panel management</li>
+                                    <li>Audio, video, and intercom wiring</li>
                                 </ul>
                                 <Button
                                     className="product-btn"
@@ -88,24 +89,22 @@ function ProductsPage() {
                     </Container>
                 </section>
 
-                {/* IT Services Section */}
+                {/* IT Consulting */}
                 <section className="service-section it-services-section">
                     <Container>
                         <Row className="align-items-center">
                             <Col md={6} data-aos="fade-right">
-                                <h2>IT Services</h2>
+                                <h2>IT Consulting</h2>
                                 <p className="service-description">
-                                    Our IT services ensure that your business
-                                    runs smoothly and securely. We provide
-                                    managed IT solutions that include
-                                    cybersecurity, network management, and IT
-                                    consulting.
+                                    We provide hands-on, actionable consulting for
+                                    individuals and businesses looking to build,
+                                    improve, or secure their technology stack.
                                 </p>
                                 <ul className="service-details">
-                                    <li>Managed IT services</li>
-                                    <li>Network security and optimization</li>
-                                    <li>24/7 monitoring & support</li>
-                                    <li>Cloud migration & management</li>
+                                    <li>Small office/home office setups</li>
+                                    <li>Hardware & software evaluations</li>
+                                    <li>Security and compliance advice</li>
+                                    <li>Cloud transition and strategy</li>
                                 </ul>
                                 <Button
                                     className="product-btn"
@@ -120,38 +119,38 @@ function ProductsPage() {
                                     src={itServicesImage}
                                     className="service-image"
                                     fluid
-                                    alt="IT Services"
+                                    alt="IT Consulting"
                                 />
                             </Col>
                         </Row>
                     </Container>
                 </section>
 
-                {/* Device Repairs Section */}
-                <section className="service-section device-repairs-section">
+                {/* Networking Services */}
+                <section className="service-section custom-software-section">
                     <Container>
                         <Row className="align-items-center">
                             <Col md={6} data-aos="fade-right">
                                 <Image
-                                    src={deviceRepairsImage}
+                                    src={networkingImage}
                                     className="service-image"
                                     fluid
-                                    alt="Device Repairs"
+                                    alt="Networking Services"
                                 />
                             </Col>
                             <Col md={6} data-aos="fade-left">
-                                <h2>Device Repairs</h2>
+                                <h2>Networking Services</h2>
                                 <p className="service-description">
-                                    Fast, reliable, and affordable repair
-                                    services for all your devices. From laptops
-                                    to mobile phones, we provide expert repair
-                                    solutions to keep your tech running.
+                                    Build a network you can rely on. We handle
+                                    installations, troubleshooting, upgrades, and
+                                    light AV/security integration for both home
+                                    and small business networks.
                                 </p>
                                 <ul className="service-details">
-                                    <li>Phone and tablet repairs</li>
-                                    <li>PC and laptop diagnostics & repairs</li>
-                                    <li>Replacement parts & upgrades</li>
-                                    <li>Data recovery</li>
+                                    <li>Router, switch, and access point installs</li>
+                                    <li>Performance optimization & diagnostics</li>
+                                    <li>Peer-to-peer and mesh networks</li>
+                                    <li>Entry-level AV/security solutions</li>
                                 </ul>
                                 <Button
                                     className="product-btn"
@@ -160,6 +159,44 @@ function ProductsPage() {
                                 >
                                     Learn More
                                 </Button>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+
+                {/* Custom Software Development */}
+                <section className="service-section it-services-section">
+                    <Container>
+                        <Row className="align-items-center">
+                            <Col md={6} data-aos="fade-right">
+                                <h2>Custom Software Development</h2>
+                                <p className="service-description">
+                                    Need automation or integration? We offer
+                                    lightweight software development solutions for
+                                    local businesses and individuals who want to
+                                    improve efficiency or launch new tools.
+                                </p>
+                                <ul className="service-details">
+                                    <li>Scripts, apps, and tool development</li>
+                                    <li>Backend integrations with APIs</li>
+                                    <li>Database and dashboard solutions</li>
+                                    <li>Affordable & scalable codebase support</li>
+                                </ul>
+                                <Button
+                                    className="product-btn"
+                                    variant="outline-light"
+                                    href="/contact"
+                                >
+                                    Learn More
+                                </Button>
+                            </Col>
+                            <Col md={6} data-aos="fade-left">
+                                <Image
+                                    src={customSoftwareImage}
+                                    className="service-image"
+                                    fluid
+                                    alt="Custom Software"
+                                />
                             </Col>
                         </Row>
                     </Container>
