@@ -2,142 +2,133 @@ import "./styles/Timeline.style.css";
 
 function Timeline() {
     return (
-        <section class="timeline">
+        <section className="timeline">
             <h2 className="timeline-title">Things To Know</h2>
-            <div class="divider mb-5"></div>
-            <div class="time-outer">
-                <div class="time-card">
+            <div className="divider mb-5"></div>
+            <div className="time-outer">
+                <div className="time-card">
                     <div
-                        class="time-info"
+                        className="time-info"
                         data-aos="slide-left"
                         data-aos-offset="300"
                         data-aos-delay="100"
                     >
-                        <h3 class="time-title">Mission</h3>
+                        <h3 className="time-title">Mission</h3>
                         <p>
                             <strong>Mission Statement:</strong>{" "}
                             <em>
-                                To Provide Idaho With A Better Tech Solution.
+                                To bring reliable networking and tech solutions
+                                to the people and businesses of Idaho.
                             </em>
                             <br /> <br />
-                            At Gem Digital Solutions our mission is to provide
-                            Idaho businesses and individuals with an all-in-one
-                            package for their tech needs. Giving Idaho an
-                            advantage in the tech industry at a lower price tag
-                            than our competitors.
+                            Gem Digital Solutions exists to meet the growing
+                            demand for trustworthy, hands-on IT services —
+                            especially where cabling, network configuration, and
+                            on-site support are needed. We aim to be a known and
+                            respected name across Idaho for dependable work,
+                            honest service, and real-world results.
                         </p>
                     </div>
                 </div>
-                <div class="time-card">
+                <div className="time-card">
                     <div
-                        class="time-info"
+                        className="time-info"
                         data-aos="slide-right"
                         data-aos-offset="300"
                         data-aos-delay="100"
                     >
-                        <h3 class="time-title">Core Values</h3>
+                        <h3 className="time-title">Core Values</h3>
                         <p>
                             <strong>
-                                Here we have simple yet firm values, they play a
-                                key role not only in the way we do business but
-                                also how we live our lives.
-                            </strong>{" "}
+                                These values guide our work and the way we
+                                interact with every client:
+                            </strong>
                             <br /> <br />
-                            <em>Integrity:</em> We ensure that every job is done
-                            the right way
-                            <br /> <em>Accountability:</em> Accept
-                            responsibility for every action and guarantee
-                            promises are met on time
-                            <br /> <em>Curiosity:</em> Always be hungry for
-                            knowledge, keeping on top of cutting edge
-                            technologies.
+                            <em>Integrity:</em> Do the right thing, even if no
+                            one’s watching.
                             <br />
-                            <em>Fairness:</em> Everyone is held to same
-                            standard, and our work always has a consistant
-                            quality
+                            <em>Service:</em> Treat every client with care and
+                            every job like it matters — because it does.
                             <br />
+                            <em>Curiosity:</em> Stay hungry to learn. This
+                            industry never stops moving, and neither do we.
+                            <br />
+                            <em>Precision:</em> Whether it's a cable run, a
+                            device configuration, or a network test — details
+                            matter.
+                            <br />
+                            <em>Faith:</em> The work we do is a reflection of
+                            the values we hold. Humility, respect, and honesty
+                            are foundational here.
                         </p>
                     </div>
                 </div>
-                <div class="time-card">
+                <div className="time-card">
                     <div
-                        class="time-info"
+                        className="time-info"
                         data-aos="slide-left"
                         data-aos-offset="300"
                         data-aos-delay="100"
                     >
-                        <h3 class="time-title">History</h3>
+                        <h3 className="time-title">History</h3>
                         <p>
-                            <strong>Gem Digital Solutions</strong> is a young
-                            and ambitious Company. Founded in 2024 we are
-                            seeking to partner with key industries in Idaho,
-                            providing low cost tech solutions that exceed our
-                            client's expectations.
+                            Gem Digital Solutions was founded in 2024 with a
+                            simple idea: people deserve better when it comes to
+                            their networks and technology. What started as small
+                            jobs for friends and neighbors grew into a business
+                            focused on solving real technical problems —
+                            especially where hands-on expertise is needed. We’re
+                            still growing, but the goal remains the same: be the
+                            team people trust to get the job done right.
                         </p>
                     </div>
                 </div>
-                <div class="time-card">
+                <div className="time-card">
                     <div
-                        class="time-info"
+                        className="time-info"
                         data-aos="slide-right"
                         data-aos-offset="300"
                         data-aos-delay="100"
                     >
-                        <h3 class="time-title">Founders</h3>
+                        <h3 className="time-title">Founder</h3>
                         <p>
-                            <strong>Gem Digital Solutions</strong> was founded
-                            by <em>Issiah Banda</em> and{" "}
-                            <em>Brandon Thatcher</em>. Both are native Idahoans
-                            and have beautiful families.
+                            Gem Digital Solutions is owned and operated by{" "}
+                            <em>Issiah Banda</em>, a dedicated network
+                            technician, tech enthusiast, and family man based in
+                            Caldwell, Idaho. Issiah has a passion for how
+                            systems connect — from the physical structure of a
+                            cable run to the invisible handshake between routers,
+                            switches, and firewalls.
+                            <br /> <br />
+                            With hands-on experience in field installation, IT
+                            support, and network design, Issiah started Gem
+                            Digital with the belief that people deserve
+                            dependable, clear, and honest tech work. Whether
+                            you're a homeowner needing a clean media panel, or a
+                            business setting up a reliable network, Issiah brings
+                            care and competence to every job.
                         </p>
                     </div>
                 </div>
-                <div class="time-card">
+                <div className="time-card">
                     <div
-                        class="time-info"
+                        className="time-info"
                         data-aos="slide-left"
                         data-aos-offset="300"
                         data-aos-delay="100"
                     >
-                        <h3 class="time-title">Guarentees</h3>
+                        <h3 className="time-title">Looking Ahead</h3>
                         <p>
-                            Though we may be a new company we are determined to
-                            prove ourselves. We are no stanger to hard work and
-                            offer multiple guarentees that set us apart.
+                            While networking and tech infrastructure remain our
+                            focus, we’re building toward a future where Gem
+                            Digital can also offer hardware sales, on-site
+                            support contracts, and possibly expand into
+                            audiovisual and security systems.
                             <br /> <br />
-                            <em>General:</em> <br />
-                            <em>-</em> <strong>Prices</strong>: We guarantee
-                            fixed pricing for our services. Once we agree on a
-                            price, there will be no hidden fees.
-                            <br />
-                            <br />
-                            <em>IT:</em> <br />
-                            <em>-</em> <strong>Crisis Response</strong>: We
-                            guarantee that we will be available and respond
-                            quickly to any major event in your network.
-                            <br />
-                            <em>-</em> <strong>Technical Support</strong>: We
-                            guarantee a response time of no more than 24 hours
-                            for all support inquiries.
-                            <br /> <br />
-                            <em>Software:</em> <br />
-                            <em>-</em> <strong>Maintenance</strong>: We
-                            guarantee free software updates for 12 months after
-                            deployment to ensure your solution stays current.
-                            <br />
-                            <em>-</em> <strong>Money-Back</strong>: We offer a
-                            30-day money-back guarantee on all our software
-                            solutions if they do not meet your business needs.
-                            <br />
-                            <em>-</em> <strong>Compatability</strong>: We
-                            guarantee that our software will be compatible with
-                            all the platforms and systems specified in the
-                            project requirements.
-                            <br /> <br />
-                            <em>Repairs:</em> <br />
-                            <em>-</em> <strong>Warranty</strong>: All device
-                            repairs come with a 90-day warranty. If the issue
-                            persists or a new one arises, we'll fix it for free.
+                            We’re not in a rush to grow — we’re focused on doing
+                            good work first. If you're in Idaho and want
+                            someone who shows up, gets it right, and follows
+                            through, give us a call. This is only the beginning.
                         </p>
                     </div>
                 </div>
