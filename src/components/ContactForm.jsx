@@ -65,7 +65,7 @@ const ContactForm = () => {
                 <h2 className="form-submit-title"> Thank You </h2>
                 <p className="form-desc">
                     {" "}
-                    We will be in contact within 24 hours{" "}
+                    Thank You! We will reach out shortly{" "}
                 </p>
             </div>
             <div className="form-container visible">
@@ -146,25 +146,25 @@ const ContactForm = () => {
                         <div className="radio-group">
                             <Form.Check
                                 type="radio"
-                                label="Residential Cabling"
+                                label="Network Installations"
                                 name="serviceType"
-                                value="resident_cable"
+                                value="network_install"
                                 onChange={handleChange}
                                 required
                             />
                             <Form.Check
                                 type="radio"
-                                label="Network Setup"
+                                label="Home Automation"
                                 name="serviceType"
-                                value="network_setup"
+                                value="home_automation"
                                 onChange={handleChange}
                                 required
                             />
                             <Form.Check
                                 type="radio"
-                                label="Business Cabling"
+                                label="Security Systems"
                                 name="serviceType"
-                                value="business_cable"
+                                value="security_system"
                                 onChange={handleChange}
                                 required
                             />

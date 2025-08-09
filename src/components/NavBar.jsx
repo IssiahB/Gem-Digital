@@ -93,13 +93,13 @@ function NavBar() {
                             data-bs-theme="dark"
                         >
                             <NavDropdown.Item href="/service">
-                                Cabling Solutions
+                                Network Installs
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/service">
-                                IT Consulting
+                                Home Automation
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/shop">
-                                Network Services
+                                Security Systems
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="/service">

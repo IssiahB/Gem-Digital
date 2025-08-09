@@ -20,9 +20,10 @@ const Features = () => {
                 <div className="text-container" data-aos="fade-up">
                     <h1 className="section-title">What Sets Us Apart</h1>
                     <p className="section-description">
-                        At Gem Digital Solutions, we deliver clean, organized, and reliable cable installations for homes and businesses across Idaho.
-                        What makes us different? Precision craftsmanship, attention to detail, and a strong commitment to customer satisfaction.
-                        We don’t just run cables — we build infrastructure you can count on.
+                        At Gem Digital Solutions LLC, we take the time to carefully plan and tailor every
+                        installation to fit your unique needs. We communicate clearly about what’s possible
+                        and don’t promise what we can’t deliver. Our job isn’t done until you’re fully satisfied
+                        with the work and your home’s security and connectivity.
                     </p>
                     <SimpleButton href="/about" id="feature-btn">
                         Learn More

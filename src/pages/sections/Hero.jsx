@@ -27,11 +27,12 @@ function Hero() {
                 <Row>
                     <Col md={8}>
                         <h1 data-aos="zoom-in" className="hero-title">
-                            Wired Right. Built to Last.
+                            Connected Homes, Confident Living
                         </h1>
                         <p data-aos="slide-right" className="lead">
-                            Structured cabling solutions for homes, businesses, and builders. 
-                            From clean cable runs to fully labeled panels — we do it right the first time.
+                            At Gem Digital Solutions, we specialize in smart home security,
+                            reliable network setups, and seamless automation—bringing safety, speed,
+                            and convenience straight to your doorstep.
                         </p>
                         <SimpleButton custClass="hero-btn" href="/contact">
                             Get a Free Quote

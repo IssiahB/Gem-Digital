@@ -19,28 +19,29 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Residential Cabling Services
+                                    Network Installations
                                 </h2>
                                 <div className="service_text">
                                     <p>
-                                        Reliable Home Networking Solutions Upgrade your home with clean,
-                                        efficient Ethernet cabling designed for today’s digital demands.
-                                        Whether you're streaming 4K video, gaming competitively, or
-                                        working remotely—we’ll eliminate lag and dead zones with professional
-                                        Cat5e/Cat6 cable runs and terminations.
+                                        We run high-quality Cat5e, Cat6, and fiber cables for reliable network speed.
+                                        Our team quickly troubleshoots network issues and installs mesh systems for
+                                        seamless Wi-Fi coverage. We also provide secure point-to-point (P2P) links to
+                                        extend your network over long distances.
+
+
                                     </p>
                                     <p>
                                         Services include:{" "}
                                         <strong>
                                             <br />
-                                            • ✅ Room-to-room cable runs <br />
-                                            • ✅ Media panel cleanups & cable dressing <br />
-                                            • ✅ Faceplate hookups & terminations <br />
-                                            • ✅ Wired connections for TVs, PCs, and consoles <br />
+                                            • ✅ Structured Cable Runs (Cat5e, Cat6) <br />
+                                            • ✅ Network Troubleshooting & Repair <br />
+                                            • ✅ Mesh Wi-Fi Network Setup <br />
+                                            • ✅ Point-to-Point (P2P) Internet Installation <br />
                                         </strong>
                                     </p>
                                     <p className="upcharge">
-                                        🔧 Built for speed. Installed with care.{" "}
+                                        🔧 Connecting You with Confidence{" "}
                                     </p>
                                 </div>
                             </div>
@@ -59,32 +60,34 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Gaming & Streaming Network Setups
+                                    Home Automation
                                 </h2>
                                 <div className="service_text">
                                     <p>
-                                        <strong>Low Latency • High Performance • Clean Installs</strong>
+                                        <strong>Smart Control • Energy Efficient • Seamless Integration</strong>
                                         <br />
-                                        Pro-Level Network for <em>Gamers</em> & <em>Creators</em> Tired of lag ruining
-                                        your stream or game? Get a rock-solid connection hardwired
-                                        directly to your rig. We specialize in low-latency installs
-                                        that support high-bandwidth needs and keep your setup looking clean.
+                                        Our home automation solutions are designed for <em>modern homeowners</em>,
+                                        <em>tech enthusiasts</em>, and anyone looking to simplify daily life. We specialize in
+                                        smart lighting, climate control, and security integration—all controlled easily
+                                        from your smartphone or voice assistant. Experience a home that adapts to you.
+
+
                                     </p>
                                     <p>
                                         What we provide:{" "}
                                         <strong>
                                             <br />
-                                            • ✅ Direct Cat6 connections <br />
-                                            • ✅ Labeled, clutter-free cable routing <br />
-                                            • ✅ Wall terminations for future flexibility <br />
-                                            • ✅ Ideal for Twitch streamers, YouTubers, and esports setups <br />
+                                            • ✅ Smart Lighting & Climate Control <br />
+                                            • ✅ Voice Assistant Integration <br />
+                                            • ✅ Automated Security & Access Control <br />
+                                            • ✅ Custom Smart Home Scenes & Schedules <br />
                                         </strong>{" "}
                                         <em>
                                             Call now to get your free estimate!
                                         </em>
                                     </p>
                                     <p className="upcharge">
-                                        🎮 Fast. Clean. Battle-tested.
+                                        🎮 Making Your Home Work Smarter
                                     </p>
                                 </div>
                             </div>
@@ -102,31 +105,30 @@ const Services = () => {
                             </div>
                             <div className="service_content">
                                 <h2 className="service_title">
-                                    Business & Commercial Cabling
+                                    Security Systems
                                 </h2>
                                 <div className="service_text">
-                                    <span className="note">Price Varies</span>
+                                    <span className="note">Tailored Pricing</span>
                                     <p>
-                                        <em>Professional Cabling for Growing Businesses</em>
+                                        <em>Protecting What Matters Most</em>
                                         <br />
-                                        Clean, structured cabling
-                                        isn’t just about aesthetics—it’s about uptime, safety, and scalability.
-                                        Whether you’re setting up a new office, renovating, or streamlining an
-                                        existing network, we deliver top-tier cable management and install
-                                        services tailored to your workspace.
+                                        We provide comprehensive security systems for homeowners and
+                                        businesses looking to safeguard their property. Our services include
+                                        security camera installation, alarm systems, and 24/7 monitoring
+                                        integration—all designed to give you peace of mind and control from anywhere.
                                     </p>
                                     <p>
                                         We can help with:{" "}
                                         <strong>
                                             <br />
-                                            • ✅ Media panel & network closet optimization <br />
-                                            • ✅ Ethernet runs to offices, POS stations, and server racks <br />
-                                            • ✅ Line labeling, testing, and documentation <br />
-                                            • ✅ Standards-compliant terminations & faceplates
+                                            • ✅ Security Camera Installation <br />
+                                            • ✅ Alarm & Sensor Systems <br />
+                                            • ✅ Remote Monitoring Setup <br />
+                                            • ✅ Access Control Solutions
                                         </strong>{" "}
                                     </p>
                                     <p className="upcharge">
-                                        🏢 Build a network that works as hard as your team.
+                                        🏢 Your Safety, Our Priority
                                     </p>
                                 </div>
                             </div>
