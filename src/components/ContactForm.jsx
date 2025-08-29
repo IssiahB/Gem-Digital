@@ -42,11 +42,37 @@ const ContactForm = () => {
         );
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("Form submitted: ", formData);
-        submitFade();
+
+        try {
+            const res = await fetch("https://gem-digital-backend.onrender.com/api/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: `${formData.firstName} ${formData.lastName}`,
+                    email: formData.email,
+                    phone: formData.phoneNumber,
+                    service: formData.serviceType,
+                    message: formData.comment,
+                }),
+            });
+
+            const data = await res.json();
+            if (!res.ok) {
+                console.error("Error:", data);
+                alert("There was a problem sending your message. Please try again.");
+                return;
+            }
+
+            console.log("Form submitted:", data);
+            submitFade(); // animate success message
+        } catch (err) {
+            console.error("Fetch error:", err);
+            alert("Network error, please try again.");
+        }
     };
+
 
     return (
         <main className="contact-form">
